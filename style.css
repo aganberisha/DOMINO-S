@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+:root {
+    ----hover: dodgerblue;
+    ---sci: #fff;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.img-logo {
+    display: flex;
+    width: 50%;
+    height: 70px;
+    padding-left: 40px;
+    padding-top: 20px;
+
+}
+
+.navbar {
+    letter-spacing: 0.5px;
+    position: absolute;
+    list-style: none;
+    display: flex;
+    padding-left: 30px;
+    
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+
+.navbar li a {
+    color: black;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background: var(----hover);
+}
+
+
+
+.login-icon {
+    font-size: 200%;
+    padding-left: 78%;
+    margin-top: -3.8%;
+}
+
+.login-icon a {
+    color: crimson;
+    text-decoration: none;
+}
+
+.delivery-collect img {
+    width: 18%;
+    padding-inline: 18px;
+    margin-left: 20%;
+    margin-top: 3%;
+    border-radius: 50px;
+    background-color: crimson
+}
+
+h2 {
+    display: flex;
+    padding-top: 5%;
+    padding-left: 44%;
+}
+
+h5 {
+    display: flex;
+    padding-top: 2;
+    padding-left: 40%;
+}
+
+footer {
+    margin-top: 110px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: crimson;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+footer .container .sec {
+    margin-right: 30px;
+}
+
+footer .container .sec.about-us {
+    width: 40%;
+    padding-left: 30px;
+}
+
+footer .container h6 {
+    position: relative;
+    color: var(---sci);
+    font-weight: 500;
+    margin-bottom: 15px;
+
+}
+
+footer .container .sec.about-us h6::before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background-color: var(----hover)
+}
+
+footer .container .sec.about-us p {
+    color: var(---sci);
+}
+
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    padding-left: 30px;
+}
+
+.social-icons li {
+    list-style: none;
+
+}
+
+.social-icons li a {
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+    color: crimson;
+    background-color: var(---sci);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.social-icons li a:hover {
+    background: var(----hover);
+}
+
+.social-icons li a .fa {
+    color: var(---sci);
+    font-size: 20px;
+
+}
+
+.sec-links {
+    padding-top: 30px;
+    position: relative;
+    width: 25%;
+}
+
+.sec-links ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.sec-links ul li a {
+    color: var(---sci);
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.sec-links ul li a:hover {
+    background: var(----hover);
+
+}
